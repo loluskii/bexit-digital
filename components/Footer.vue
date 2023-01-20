@@ -26,6 +26,10 @@
           <input type="text" class="form-control bg-transparent rounded-0 border-top-0 border-start-0 border-end-0" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
           <button class="btn border bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 text-white" id="basic-addon2">Submit</button>
         </div>
+        <div class="pt-5 float-end">
+          <p class="fw-bold">Follow Us</p>
+         <p>2022 All rights reserved</p>
+        </div>
       </div>
     </div>
   </footer>
@@ -42,6 +46,8 @@ footer{
   padding: 60px 80px;
   background-color: #080E41;
   color: #fff;
+  position: relative;
+  z-index: 1000 !important;
 }
 
 footer p{

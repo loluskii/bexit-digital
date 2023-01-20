@@ -4,6 +4,7 @@
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body{
@@ -17,6 +18,10 @@ h1{
   font-weight: 700 !important;
   line-height: 100px !important;
   color: #080E41;
+}
+
+h4{
+  font-size: 35px; font-weight: 700; 
 }
 
 h3{

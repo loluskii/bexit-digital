@@ -7,19 +7,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="mx-auto navbar-nav">
           <li class="nav-item mx-5">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link  fw-bold text-dark" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item mx-5">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link fw-bold text-dark" href="#">Contact</a>
           </li>
           <li class="nav-item mx-5">
-            <a class="nav-link" href="#">Affiliate</a>
+            <a class="nav-link fw-bold text-dark" href="#">Affiliate</a>
           </li>
           <li class="nav-item mx-5">
-            <a class="nav-link">About</a>
+            <a class="nav-link fw-bold text-dark">About</a>
           </li>
           <li class="nav-item mx-5">
-            <a class="nav-link">FAQ</a>
+            <a class="nav-link fw-bold text-dark">FAQ</a>
           </li>
         </ul>
       </div>
@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style>
-
+li.nav-item a.nav-link{
+  font-size: 25px;
+}
 </style>
