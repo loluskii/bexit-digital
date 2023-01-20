@@ -22,6 +22,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "bootstrap/dist/css/bootstrap.css",
+    "bootstrap-vue/dist/bootstrap-vue.css",
     "~assets/css/style.css",
     "bootstrap-icons/font/bootstrap-icons.css",
   ],
@@ -34,6 +35,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    "bootstrap-vue/nuxt"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
