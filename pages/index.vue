@@ -92,14 +92,14 @@
             </div>
           </div>
           <div class="card card-left border-0">
-            <div class="card-body">
+            <div class="card-body overflow-hidden">
               <p>
                 Company was very helpful, helping me to connect with potential
                 prospects. I was able to significantly improve my business. As
                 well as expand my network.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center bg-white border-0 overflow-hidden">
               <h6 class="fw-bold">CEO of Bumble</h6>
             </div>
           </div>
@@ -117,14 +117,14 @@
             </div>
           </div>
           <div class="card card-center border-0">
-            <div class="card-body">
+            <div class="card-body overflow-hidden">
               <p>
                 Company was very helpful, helping me to connect with potential
                 prospects. I was able to significantly improve my business. As
                 well as expand my network.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center bg-white border-0 overflow-hidden">
               <h6 class="fw-bold">CEO of Bumble</h6>
             </div>
           </div>
@@ -142,14 +142,14 @@
             </div>
           </div>
           <div class="card card-right border-0">
-            <div class="card-body">
+            <div class="card-body overflow-hidden">
               <p>
                 Company was very helpful, helping me to connect with potential
                 prospects. I was able to significantly improve my business. As
                 well as expand my network.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center bg-white border-0 overflow-hidden">
               <h6 class="fw-bold">CEO of Bumble</h6>
             </div>
           </div>
