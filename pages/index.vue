@@ -184,7 +184,7 @@
         <div class="col-md-2">
           <div class="card card-1" style="height: 350px">
             <div class="card-body text-center position-relative px-2">
-              <h4 style="padding-top: 60px">Starter</h4>
+              <h4 style="padding-top: 60px; overflow-y: hidden">Starter</h4>
               <br />
               <span style="font-size: 30px" class="price">$20</span>
               <div style="height: 55px"></div>
@@ -213,7 +213,7 @@
                   <i class="bi bi-check"></i> Salesforce & Zapier Integrations
                 </li>
               </ul>
-              <h4 style="font-size: 35px; font-weight: 700">Pro</h4>
+              <h4 style="font-size: 35px; font-weight: 700; overflow: hidden">Pro</h4>
               <span style="font-size: 30px" class="price">$20</span>
               <div style="height: 55px"></div>
             </div>
@@ -222,7 +222,7 @@
         <div class="col-md-2">
           <div class="card card-3" style="height: 350px">
             <div class="card-body text-center position-relative px-2">
-              <h4 style="padding-top: 60px">Enterprise</h4>
+              <h4 style="padding-top: 60px; overflow: hidden">Enterprise</h4>
               <br />
               <span style="font-size: 30px" class="price">$30</span>
               <div style="height: 55px"></div>
@@ -240,7 +240,7 @@
         <button class="btn btn-prim">Learn More</button>
       </div>
     </div>
-    <div class="circle-back-3 position-absolute"></div>
+    <!-- <div class="circle-back-3 position-absolute"></div> -->
   </div>
 </template>
 
@@ -276,14 +276,11 @@ export default {
   background: #fbfbfb;
 }
 
-.section-5 .card-1,
+.section-5 .card-1, .card-2,
 .card-3 {
   box-shadow: 0px 5px 30px rgba(211, 213, 220, 0.3);
 }
-.section-5 .card-2 {
-  box-shadow: -12px 4px 60px rgba(211, 213, 220, 0.4),
-    9px 5px 60px rgba(211, 213, 220, 0.4);
-}
+
 
 .section-5 .card .circle-2 {
   width: 80px;
@@ -320,8 +317,7 @@ export default {
       185.67% 207.73% at 30.72% 36.1%,
       rgba(216, 225, 241, 0.2) 0%,
       rgba(216, 225, 241, 0) 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    );
   border: 1px solid rgba(8, 14, 65, 0.08);
   border-radius: 50%;
   z-index: 10;
